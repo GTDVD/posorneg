@@ -1,1 +1,11 @@
-# posorneg
+#include <stdio.h>
+int main()
+{
+    int n;
+    scanf("%d",&n);
+    if(n>=0)
+     printf("POSITIVE");
+    else
+      printf("NEGATIVE");
+    return 0;
+}
